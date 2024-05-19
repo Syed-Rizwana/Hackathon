@@ -1,0 +1,23 @@
+.canvas-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+  }
+  
+  .canvas {
+    border: 2px solid white;
+    background-color: #d43f3f;
+    border-radius: 25px;
+    width:400px;
+    height:400px;
+  }
+ 
+    #roll {
+        display: inline-block;
+        font-size:30px;
+      }
+    
+  
+  

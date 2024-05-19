@@ -1,0 +1,44 @@
+.country-selector {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#country-select {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.covid-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.covid-table th, .covid-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.covid-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.covid-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.covid-table tr:hover {
+    background-color: #ddd;
+}
+
+.covid-table th, .covid-table td {
+    padding: 12px 15px;
+}
+
+.covid-table th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
