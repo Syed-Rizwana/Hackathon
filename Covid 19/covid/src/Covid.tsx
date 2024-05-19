@@ -19,7 +19,7 @@ const fetchCovidData = async (country: string): Promise<CovidTimeline> => {
     return response.data.timeline;
 };
 
-const CountrySelector: React.FC = () => {
+const SelectCountry: React.FC = () => {
     const [countries] = useState<string[]>(['India', 'China', 'Sri Lanka','Bangladesh','Nepal']);
     const [selectedCountry, setSelectedCountry] = useState<string>('India');
     const [timelineData, setTimelineData] = useState<CovidTimeline | null>(null);
@@ -76,4 +76,4 @@ const CountrySelector: React.FC = () => {
     );
 };
 
-export default CountrySelector;
+export default SelectCountry;
